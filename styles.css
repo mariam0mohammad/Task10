@@ -1,0 +1,71 @@
+/* Navbar Styles */
+.navbar {
+    background-color: #2E8B57; /* Green */
+    overflow: hidden;
+    padding: 10px 20px;
+}
+
+.navbar a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #3CB371; /* Lighter Green */
+    color: white;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F0FFF0; /* Light Green Background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #2E8B57; /* Green */
+    margin-top: 20px;
+}
+
+/* Users Container Styles */
+#users-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.user-card {
+    background-color: #FFFFFF; /* White */
+    border: 1px solid #2E8B57; /* Green Border */
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(46, 139, 87, 0.1); /* Green Shadow */
+}
+
+.user-card h2 {
+    margin-top: 0;
+    color: #2E8B57; /* Green */
+}
+
+.user-card p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.user-card a {
+    color: #2E8B57; /* Green */
+    text-decoration: none;
+}
+
+.user-card a:hover {
+    text-decoration: underline;
+}
